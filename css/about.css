@@ -57,10 +57,11 @@
 .message_form{
   width: 100%;
   background-color: black;
-  height: 150px;
+  height: 192px;
   color: white;
   font-size: 1em;
   padding: 2rem;
+  padding-bottom: 50px;
   border: 1px solid white;
   letter-spacing: 1.5px;
 }
