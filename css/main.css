@@ -5,7 +5,7 @@
 }
 
 /*main css styling that is common across all pages. Contains elements that are used throughout multiple pages.
-  Don't put any elements that only belong on a single page here! */
+Don't put any elements that only belong on a single page here! */
 
 @font-face {
   font-family: universlight;
@@ -26,7 +26,7 @@ a, a:visited, a:active{
   color:white;
   text-decoration:none;
   -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
+  transition-duration: 0.4s;
 }
 
 a:hover {
@@ -88,23 +88,23 @@ input {
 }
 
 ::-webkit-input-placeholder {
-   color: white;
-   letter-spacing:3px;
+ color: white;
+ letter-spacing:3px;
 }
 
 :-moz-placeholder { /* Firefox 18- */
-   color: white;  
-   letter-spacing:3px;
+ color: white;  
+ letter-spacing:3px;
 }
 
 ::-moz-placeholder {  /* Firefox 19+ */
-   color: white;  
-   letter-spacing:3px;
+ color: white;  
+ letter-spacing:3px;
 }
 
 :-ms-input-placeholder {  
-   color: white;  
-   letter-spacing:3px;
+ color: white;  
+ letter-spacing:3px;
 }
 
 .forminput{
@@ -118,7 +118,7 @@ input {
   letter-spacing:3px;
   background:none;
   -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
+  transition-duration: 0.4s;
 }
 
 .submitbutton:hover {
