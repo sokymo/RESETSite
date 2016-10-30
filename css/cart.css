@@ -1,0 +1,148 @@
+/*cart css page*/
+
+h1.walletheading{
+  display:block;
+  width:100%;
+  margin-top:3rem;
+  font-family:universbold;
+  font-size:2em;
+  color:#D7DF21;
+}
+
+h2{
+  margin-top:4rem;
+  font-weight:lighter;
+  font-size:1.2em;
+}
+
+h1.cartheading {
+  font-family:univers;
+}
+
+hr.hrheading {
+  margin-left:1rem;
+  margin-bottom:0rem;
+  border-color:#D7DF21;
+}
+
+hr.separator{
+  margin-top:1rem;
+  width:100%;
+}
+
+.productlisting{
+  width:80%;
+  min-width:350px;
+  max-height:350px;
+  height:auto;
+  float:left;
+  margin-top:0rem;
+  color:white;
+}
+
+.productlistingempty{
+  width:80%;
+  min-width:350px;
+  max-height:350px;
+  height:auto;
+  float:left;
+  margin-top:0rem;
+  color:white;
+}
+
+.cartmodules{
+  width:100%;
+  max-height:350px;
+  height:auto;
+  float:left;
+  margin-top:13rem;
+  font-size:1.3em;
+  font-family:univers;
+  color:white;
+  text-align:right;
+}
+
+.subtotalmodule{
+  width:100%;
+  max-height:350px;
+  height:auto;
+  float:left;
+  margin-top:1rem;
+  font-size:1.3em;
+  font-family:univers;
+  color:white;
+  text-align:right;
+}
+
+.subtotalmodule.sub{
+  margin-top:3rem;
+}
+
+.productimage {
+  width:100%;
+  height:100%;
+}
+
+.productbackgroundwrapper {
+  position:absolute;
+  top:100px;
+  width:100%;
+  height:90rem;
+  background:black;
+  z-index:-1;
+}
+
+.buttons {
+  float:right;
+  margin-top:-1rem;
+  width:100%;
+  height:4rem;
+  padding:1.5rem 2rem;
+  font-family:universlight;
+  font-size:0.9em;
+  text-align:center;
+  border: 1px solid white;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.buttons:hover {
+  color:#868A92;
+  border:1px solid #868A92;
+}
+.buttonsempty {
+  width:100%;
+  height:5rem;
+  margin-bottom:2rem;
+}
+
+.reviewsheading {
+  margin-top:7.5rem;
+  width:100%;
+  margin-bottom:-1rem;
+}
+
+.reviewsheading2 {
+  text-align:right;
+  margin-top:7.5rem;
+  margin-bottom:-1rem;
+}
+
+.quantity {
+  float:right;
+  margin-top:-1rem;
+  width:40%;
+  height:1rem;
+  padding:1rem 2rem;
+  text-align:center;
+  border: 1px solid white;
+  background:none;
+}
+
+.coupon {
+  margin-top:-1rem;
+  font-family:universlight;
+  font-size:0.9em;
+  text-align:center;
+  background:none;
+}
