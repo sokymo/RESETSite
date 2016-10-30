@@ -52,8 +52,8 @@
   }
 
   .heroempty {
-  height:38em;
-}
+    height:38em;
+  }
 
   .footerarea{
     height:37rem;
@@ -114,6 +114,23 @@
     height:0rem;
     margin-top:-5rem;
   }
+
+  /*wallet page*/
+
+  h1.walletheading{
+    width:90%;
+    font-size:1.5em;
+  }
+
+  .iteminfo{
+    max-height:460px;
+    margin-top:2rem;
+  }
+
+  .reviews{
+    padding:2rem 2rem;
+  }
+
 }
 
 @media (max-width:1080px){
@@ -142,6 +159,38 @@
   .seemorecol3.col-3of9{
     width:45%;
   }
+
+  /*wallet page*/
+
+  .mainwalletimage.col-6of9 {
+    width:100%;
+  }
+
+  .walletinfo.col-3of9 {
+    width:100%;
+  }
+
+  .productbackgroundwrapper {
+    top:210px;
+    height:112rem;
+  }
+
+  .buttonscol.col-3of9 {
+    width:100%;
+  }
+
+  .productlisting {
+    margin-bottom:2rem;
+  }
+
+  .buttonsempty {
+    display:none;
+  }
+
+  .seemore, .reviewsheading {
+    margin-top:4rem;
+  }
+
 }
 
 @media (max-width:768px){
@@ -149,6 +198,17 @@
   #content {
     padding-left:0rem;
     padding-right:0rem;
+  }
+
+  /*wallet page*/
+
+  .productlistingmain{
+    margin-top:10rem;
+  }
+
+  .productbackgroundwrapper {
+    top:270px;
+    height:104rem;
   }
 
 }
@@ -161,6 +221,24 @@
 
   .filter{
     margin-bottom:-3rem;
+  }
+
+  /*wallet page*/
+
+  .iteminfo{
+    max-height:510px;
+    margin-top:0rem;
+    margin-left:0rem;
+    margin-right:0rem;
+  }
+
+  .productbackgroundwrapper {
+    top:270px;
+    height:113rem;
+  }
+
+  .seemore, .reviewsheading {
+    margin-top:5rem;
   }
 
 }
