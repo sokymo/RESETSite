@@ -1,19 +1,32 @@
-
-
 *, *:after, *:before {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
+/*main css styling that is common across all pages. Contains elements that are used throughout multiple pages.
+  Don't put any elements that only belong on a single page here! */
+
+@font-face {
+  font-family: universlight;
+  src: url('../fonts/UniversLTStd-Light.otf');
+}
+
 @font-face {
   font-family: univers;
-  src: url('fonts/UniversLTStd-Ex.otf');
+  src: url('../fonts/UniversLTStd.otf');
+}
+
+@font-face {
+  font-family: universbold;
+  src: url('../fonts/UniversLTStd-Bold.otf');
 }
 
 a, a:visited, a:active{
   color:white;
   text-decoration:none;
+  -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
 }
 
 a:hover {
@@ -21,10 +34,12 @@ a:hover {
 }
 
 p { 
+  line-height: 1.5em;
+  letter-spacing: 1.5px;
 } 
 
 body {
-  font-family: univers, sans-serif;
+  font-family: universlight, sans-serif;
   font-size:0.9em;
   font-weight: lighter;
   letter-spacing: 3px;
@@ -40,9 +55,77 @@ h1{
   font-size:1.2em;
 }
 
-.wrappertest{
+hr {
+  margin-left:0;
+  margin-top:2rem;
+  margin-bottom:2.5rem;
+  color:white;
+  width:5rem;
+}
+
+ul
+{
+  margin-top:2rem;
+  margin-left: 1rem;
+  padding:0;
   
 }
+
+li {
+  line-height: 1.5em;
+  letter-spacing: 1.5px;
+}
+
+input {
+  width:100%;
+  height:4rem;
+  padding:2rem 2rem;
+  color:white;
+  letter-spacing: 1.5px;
+  font-size:1em;
+  background:#0D0D0E;
+  border: 1px solid white;
+}
+
+::-webkit-input-placeholder {
+   color: white;
+   letter-spacing:3px;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: white;  
+   letter-spacing:3px;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: white;  
+   letter-spacing:3px;
+}
+
+:-ms-input-placeholder {  
+   color: white;  
+   letter-spacing:3px;
+}
+
+.forminput{
+  margin-bottom:2rem;
+}
+
+.submitbutton{
+  padding:1.5rem 0rem;
+  margin-bottom:2rem;
+  text-transform: uppercase;
+  letter-spacing:3px;
+  background:none;
+  -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.submitbutton:hover {
+  color:#868A92;
+  border:1px solid #868A92;
+}
+
 
 /*sections*/
 
@@ -58,6 +141,7 @@ h1{
 
 #footer {
 }
+
 
 /*header classes*/
 
@@ -164,9 +248,5 @@ h1{
   font-size:0.9em;
   color:#AAA;
   text-align:center;
-}
-
-.test {
-
 }
 
