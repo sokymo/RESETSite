@@ -191,6 +191,25 @@
     margin-top:4rem;
   }
 
+  /*login page*/
+
+  .logincol.col-3of9 {
+    width:100%;
+  }
+
+  .reviewform {
+    margin-top:10rem;
+  }
+
+  .login {
+    text-align:center;
+  }
+
+  .loginbg.productbackgroundwrapper {
+    top:270px;
+    height:60rem;
+  }
+
 }
 
 @media (max-width:768px){
