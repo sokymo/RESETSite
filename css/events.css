@@ -36,7 +36,7 @@
   color:white !important;
 }
 
-#container {
+#container1 {
 	position: relative;
   background-image: url("../images/fanexpo.jpg");
   -webkit-background-size: cover;
@@ -49,7 +49,7 @@
 
 #container2 {
 	position: relative;
-  background-image: url("../images/fanexpo.jpg");
+  background-image: url("../images/leaguechars.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -60,7 +60,7 @@
 
 #container3 {
 	position: relative;
-  background-image: url("../images/fanexpo.jpg");
+  background-image: url("../images/lakesfest.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
