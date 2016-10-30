@@ -3,146 +3,164 @@
 
 @media (max-width:1550px){
 
-  	.footermaintext{
-  		padding:0 1.5rem;
-  	}
+ .footermaintext{
+  padding:0 1.5rem;
+}
 
+}
+
+@media (max-width:1255px){
+
+ .footermainwrapper{
+  padding-left:0;
+  padding-right:0;
+  font-size:0.9em;
+}
+
+}
+
+@media (max-width:1080px){
+
+  .col-1of9{
+    width:100%;
   }
 
-  @media (max-width:1255px){
-
-  	.footermainwrapper{
-  		padding-left:0;
-  		padding-right:0;
-  		font-size:0.9em;
-  	}
-
+  .col-8of9{
+    width:100%;
   }
 
-  @media (max-width:1080px){
-
-    .col-1of9{
-      width:100%;
-    }
-
-    .col-8of9{
-      width:100%;
-    }
-
-  	#header {
-  		padding-left:1rem;
-  		padding-right:1rem;
-  	}
-
-    .topnavwrapper{
-      padding-top:40px;
-      text-align:center;
-    }
-
-    .logo{
-      text-align:center;
-    }
-
-  	.topnavlink{
-  		padding: 0 1rem;
-  	}
-
-    .hero {
-      top:240px;
-    }
-
-  	.footerarea{
-  		height:37rem;
-  	}
-
-  	.footermainwrapper{
-  		font-size:1em;
-  		height:12rem;
-  	}
-
-  	.footerlinkresize {
-  		display:block;
-  	}
-
+  #header {
+    padding-left:1rem;
+    padding-right:1rem;
   }
 
-  @media (max-width:768px){
-
-  	.hero {
-  		top:290px;
-  	}
-
-
-  	#header {
-  		padding-left:0rem;
-  		padding-right:0rem;
-  	}
-
-  	.topnavlink{
-  		font-size:1em;
-  		padding: 0rem 0.8rem;
-  	}
-
-  	.topiconwrapper {
-  		margin-top:40px;
-  		display:block;
-  	}
-
+  .topnavwrapper{
+    padding-top:40px;
+    text-align:center;
   }
 
-  /*body content media queries*/
-
-  @media (max-width:1255px){
-
-    .col-2of9{
-      width:100%;
-    }
-
-    .removeempty2{
-      display:none;
-    }
-
-    .nextpage{
-      height:0rem;
-      margin-top:-5rem;
-
-    }
-
+  .logo{
+    text-align:center;
   }
 
-  @media (max-width:1080px){
-
-    .col-3of9 {
-      width:50%;
-    }
-
-    #content {
-      padding-left:3rem;
-      padding-right:3rem;
-    }
-
-    .removeempty{
-      display:none;
-    }
+  .topnavlink{
+    padding: 0 1rem;
   }
 
-    @media (max-width:768px){
-
-    #content {
-      padding-left:0rem;
-      padding-right:0rem;
-    }
-
+  .hero {
+    top:210px;
   }
 
-  @media (max-width:414px){
+  .heroempty {
+  height:38em;
+}
 
-    .col-3of9{
-      width:100%;
-    }
-
-    .filter{
-      margin-bottom:-3rem;
-    }
-
+  .footerarea{
+    height:37rem;
   }
+
+  .footermainwrapper{
+    font-size:1em;
+    height:12rem;
+  }
+
+  .footerlinkresize {
+    display:block;
+  }
+
+}
+
+@media (max-width:768px){
+
+ .hero {
+  top:250px;
+}
+
+.heroempty {
+  height:40em;
+}
+
+
+#header {
+  padding-left:0rem;
+  padding-right:0rem;
+}
+
+.topnavlink{
+  font-size:1em;
+  padding: 0rem 0.8rem;
+}
+
+.topiconwrapper {
+  margin-top:40px;
+  display:block;
+}
+
+}
+
+/*body content media queries*/
+
+@media (max-width:1255px){
+
+  .col-2of9{
+    width:100%;
+  }
+
+  .removeempty2{
+    display:none;
+  }
+
+  .nextpage{
+    height:0rem;
+    margin-top:-5rem;
+  }
+}
+
+@media (max-width:1080px){
+
+  .col-3of9 {
+    width:50%;
+  }
+
+  .col-6of9{
+    width:50%;
+  }
+
+  #content {
+    padding-left:3rem;
+    padding-right:3rem;
+  }
+
+  .removeempty{
+    display:none;
+  }
+
+  .game.col-5of9{
+    width:55%;
+  }
+
+  .seemorecol3.col-3of9{
+    width:45%;
+  }
+}
+
+@media (max-width:768px){
+
+  #content {
+    padding-left:0rem;
+    padding-right:0rem;
+  }
+
+}
+
+@media (max-width:414px){
+
+  .col-3of9{
+    width:100%;
+  }
+
+  .filter{
+    margin-bottom:-3rem;
+  }
+
+}
