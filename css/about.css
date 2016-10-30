@@ -56,10 +56,28 @@
   margin-bottom: 0px;
 }
 
-.cf_bottom{
-    left: 33.7%;
-    width: 65.3%;
+.cf_button{
+    display: inline-block;
+    text-align: center;
+/*    padding: 1em 1.25em;*/
+    color: white;
+    text-transform: uppercase;
+    left: 40%;
+    width: 100%;
+/*    font-weight: bold;*/
+    font-size: .8em;
+    background-color: #1D1E1D;
+    border-color: white;
+/*    border-radius: 0.3em;*/
+    text-decoration: none;
+    -webkit-transition: background-color 0.3s ease-out;
+    transition: background-color 0.3s ease-out;
+    padding: 1.2rem;
   } 
+
+.cf_button:active, .cf_button:hover, .cf_button:focus {
+    color: black;
+    background-color: white;
 }
 
 
