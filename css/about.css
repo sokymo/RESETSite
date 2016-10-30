@@ -8,9 +8,9 @@
   color:white;
 }
 
-.contact-cover{
+/*.contact-cover{
   position: relative;
-/*  background-image: url("../img/hero-about.jpg");*/
+  background-image: url("../img/hero-about.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -21,6 +21,27 @@
 
   padding-top: 8em;
   padding-bottom:18em;
+}*/
+
+.contact_cover {
+  position: relative;
+  background-image: url("../images/hero-aboutcopy.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height:1em;
+  margin: 0px;
+  top: 100px;
+  text-align: center;
+
+  padding-top: 8em;
+  padding-bottom:28em;
+}
+
+.white{
+  color:white !important;
 }
 
 .contact_us{
@@ -65,5 +86,6 @@
     color: black;
     background-color: white;
 }
+
 
 
