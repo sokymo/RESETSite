@@ -77,9 +77,11 @@
   color: white;
   font-size: 12px;
   text-transform: uppercase;
-  font-weight: bold;
+/*  font-weight: bold;*/
   left: 15px;
+  right: 15px;
   bottom: 0px;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .buttons {
@@ -98,3 +100,8 @@
   color:#868A92;
   border:1px solid #868A92;
 }
+/*
+p span { 
+    background-color: black;
+    padding: .5rem; 
+}*/
