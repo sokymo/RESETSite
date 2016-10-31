@@ -17,6 +17,10 @@
   color:white;
 }
 
+.heroheight {
+  height:5rem;
+}
+
 .productlisting{
   width:100%;
   max-height:350px;
@@ -103,9 +107,9 @@
 /* Links inside the dropdown */
 .dropdown-content a {
     color: white;
-    padding: 12px 16px;
-    margin-top:2rem;
-    margin-bottom:2rem;
+    padding: 33px 16px;
+    margin-top:0rem;
+    margin-bottom:0rem;
     text-decoration: none;
     display: block;
     text-align: left;
@@ -115,7 +119,9 @@
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: darkgrey}
+.dropdown-content a:hover {
+  background-color: darkgrey;
+}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
