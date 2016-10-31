@@ -34,6 +34,7 @@
 
 .white{
   color:white !important;
+  font-weight: bold;
 }
 
 #container1 {
@@ -79,4 +80,21 @@
   font-weight: bold;
   left: 15px;
   bottom: 0px;
+}
+
+.buttons {
+  margin: 0 auto;
+  width:15%;
+  height:4rem;
+  margin-bottom:2rem;
+  padding:1.5rem 2rem;
+  text-align:center;
+  border: 1px solid white;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.buttons:hover {
+  color:#868A92;
+  border:1px solid #868A92;
 }

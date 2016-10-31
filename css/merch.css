@@ -39,3 +39,25 @@
   margin-top:3rem;
   color:white;
 }
+
+.merch_cover {
+  position: relative;
+  background-image: url("../images/merchhero.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height:1em;
+  margin: 0px;
+  top: 100px;
+  text-align: center;
+
+  padding-top: 8em;
+  padding-bottom:28em;
+}
+
+.white{
+  color:white !important;
+  font-weight: bold;
+}
