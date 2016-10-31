@@ -197,7 +197,7 @@
     width:100%;
   }
 
-  .reviewform {
+  .loginreview.reviewform {
     margin-top:10rem;
   }
 
@@ -219,6 +219,16 @@
     padding-right:0rem;
   }
 
+  /*merch page*/
+
+  .merch_cover {
+    top:250px;
+  }
+
+  .heroheight {
+    height:13rem;
+  }
+
   /*wallet page*/
 
   .productlistingmain{
@@ -228,6 +238,32 @@
   .productbackgroundwrapper {
     top:270px;
     height:104rem;
+  }
+
+  /*about page*/
+
+  .aboutcol.col-3of9 {
+    width:100%;
+  }
+
+  .contactform {
+    margin-bottom:-3.5rem;
+  }
+
+  .sendcommentscol.col-6of9 {
+    display:none;
+  }
+
+  .cdontactwrapper {
+    text-align:center;
+  }
+
+  .contact_cover {
+    top:250px;
+  }
+
+  .events_cover {
+    top:250px;
   }
 
 }
