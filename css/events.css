@@ -17,7 +17,7 @@
 
 .events_cover {
   position: relative;
-  background-image: url("../images/fanexpo.jpg");
+  background-image: url("../images/fanexpo_overlay.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -36,6 +36,15 @@
   color:white !important;
   font-weight: bold;
 }
+
+/*#herooverlay {
+    background-color: SlateGray;
+    position:relative;
+    opacity: 0.20;
+    -moz-opacity: 20%;
+    -webkit-opacity: 20%;
+    z-index: -10;
+}*/
 
 #container1 {
 	position: relative;

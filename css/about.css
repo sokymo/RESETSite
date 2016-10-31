@@ -27,7 +27,7 @@
 
 .contact_cover {
   position: relative;
-  background-image: url("../images/hero-aboutcopy.jpg");
+  background-image: url("../images/hero_about_overlay.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
