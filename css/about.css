@@ -58,7 +58,7 @@
 .message_form{
   width: 100%;
   background-color: black;
-  height: 192px;
+  height: 157px;
   color: white;
   font-size: 1em;
   padding: 2rem;
@@ -98,3 +98,7 @@
   letter-spacing: 1.5px;
 }
 
+hr.hrheading {
+  margin-left:0rem;
+  border-color:#D7DF21;
+}
