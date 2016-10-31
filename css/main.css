@@ -114,11 +114,13 @@ input {
 .submitbutton{
   padding:1.5rem 0rem;
   margin-bottom:2rem;
+  border:1px solid white;
   text-transform: uppercase;
   letter-spacing:3px;
   background:none;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
+  text-align: center;
 }
 
 .submitbutton:hover {
