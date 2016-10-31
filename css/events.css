@@ -1,5 +1,9 @@
 /*merchandise css page*/
 
+.heroheight {
+  height:5rem;
+}
+
 .productlisting{
   float:left;
   width:100%;
