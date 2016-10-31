@@ -45,7 +45,7 @@
   -o-background-size: cover;
   background-size: cover;
   width: 100%;
-  height: 180px;
+  height: 220px;
 }
 
 #container2 {
@@ -56,7 +56,7 @@
   -o-background-size: cover;
   background-size: cover;
   width: 100%;
-  height: 180px;
+  height: 220px;
 }
 
 #container3 {
@@ -67,7 +67,7 @@
   -o-background-size: cover;
   background-size: cover;
   width: 100%;
-  height: 180px;
+  height: 220px;
 }
 
 
@@ -75,7 +75,7 @@
   z-index: 100;
   position: absolute;
   color: white;
-  font-size: 12px;
+  font-size: 14px;
   text-transform: uppercase;
 /*  font-weight: bold;*/
   left: 15px;
