@@ -38,3 +38,9 @@
 .login {
   background:none;
 }
+
+hr.hrheading {
+  margin-left:0rem;
+  margin-bottom:2.8rem;
+  border-color:#D7DF21;
+}
