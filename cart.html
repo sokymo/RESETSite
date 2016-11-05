@@ -60,13 +60,10 @@
 		<div class="grid">
 
 
-			<!--Grid wrapper-->
-			<div class="col-9of9">
-
 				<!--Main header-->
 				<div class="row">
 
-					<div class="col-9of9">
+					<div class="col-9of9 colwrapper">
 						<h1 class="cartheading">MY SHOPPING BAG</h1>
 					</div>
 
@@ -78,20 +75,20 @@
 				<!--Headings row-->
 				<div class="row">
 
-					<div class="col-3of9">
-						<h2 class="reviewsheading">ITEM</h2>
+					<div class="col-3of9 cartcol sub">
+						<h2 class="cartsubheading">ITEM</h2>
 					</div>
 
-					<div class="col-2of9">
-						<h2 class="reviewsheading2">PRICE</h2>
+					<div class="col-2of9 cartcol sub">
+						<h2 class="cartsubheading2">PRICE</h2>
 					</div>
 
-					<div class="col-2of9">
-						<h2 class="reviewsheading2">QUANTITY</h2>
+					<div class="col-2of9 cartcol sub">
+						<h2 class="cartsubheading2">QUANTITY</h2>
 					</div>
 
-					<div class="col-2of9">
-						<h2 class="reviewsheading2">TOTAL</h2>
+					<div class="col-2of9 cartcol hidden">
+						<h2 class="cartsubheading2">TOTAL</h2>
 					</div>
 
 				</div>
@@ -99,22 +96,22 @@
 
 				<div class="row">
 					<div class="col-9of9">
-						<hr class="separator">
+						<hr class="first cart separator">
 					</div>
 				</div>
 
 				<!--first item in cart-->
 				<div class="row">
 
-					<div class="col-3of9">
-						<div class="productlisting"><img src="images/unchartedwallet1.jpg" class="productimage"></div>
+					<div class="col-3of9 cartcol">
+						<div class="cartproductlisting"><img src="images/unchartedwallet1.jpg" class="productimage"></div>
 					</div>
 
-					<div class="col-2of9">
+					<div class="col-2of9 cartcol">
 						<div class="cartmodules">$24.99</div>
 					</div>
 
-					<div class="col-2of9">
+					<div class="col-2of9 cartcol">
 						<div class="cartmodules">
 							<form>
 								<input type="text" name="quantity" class="quantity" value="1">
@@ -122,7 +119,7 @@
 						</div>
 					</div>
 
-					<div class="col-2of9">
+					<div class="col-2of9 cartcol hidden">
 						<div class="cartmodules">$24.99</div>
 					</div>
 
@@ -130,7 +127,7 @@
 
 				<div class="row">
 					<div class="col-9of9">
-						<hr class="separator">
+						<hr class="cart separator">
 					</div>
 				</div>
 
@@ -138,15 +135,15 @@
 				<!--second item in cart row-->
 				<div class="row">
 
-					<div class="col-3of9">
-						<div class="productlisting"><img src="images/bowsershirt1.jpg" class="productimage"></div>
+					<div class="col-3of9 cartcol">
+						<div class="cartproductlisting"><img src="images/bowsershirt1.jpg" class="productimage"></div>
 					</div>
 
-					<div class="col-2of9">
+					<div class="col-2of9 cartcol">
 						<div class="cartmodules">$24.99</div>
 					</div>
 
-					<div class="col-2of9">
+					<div class="col-2of9 cartcol">
 						<div class="cartmodules">
 							<form>
 								<input type="text" name="quantity" class="quantity" value="1">
@@ -154,13 +151,13 @@
 						</div>
 					</div>
 
-					<div class="col-2of9">
+					<div class="col-2of9 cartcol hidden">
 						<div class="cartmodules">$24.99</div>
 					</div>
 
 					<div class="row">
 						<div class="col-9of9">
-							<hr class="separator">
+							<hr class="cart separator">
 						</div>
 					</div>
 
@@ -170,26 +167,28 @@
 				<!--subtotal row-->
 				<div class="row">
 
-					<div class="col-3of9">
+					<div class="col-3of9 cartcol hidden">
 						<div class="productlistingempty"></div>
 					</div>
 
-					<div class="col-2of9">
+					<div class="col-2of9 codecol">
 						<div class="subtotalmodule">
 							<form>
-								<input type="text" name="coupon" class="coupon" placeholder="CODE">
+								<input type="text" name="coupon" class="coupon" placeholder="PROMO CODE">
 							</form>
 						</div>
 					</div>
 
-					<div class="col-2of9">
+					<div class="col-2of9 codecol">
 						<div class="subtotalmodule">
-							<a href="finishpay.html"><div class="buttons">PAY NOW</div></a>
+							<a href="cart.html"><div class="codebutton">UPDATE BAG</div></a>
 						</div>
 					</div>
 
-					<div class="col-2of9">
+					<div class="col-2of9 codecol pay">
 						<div class="subtotalmodule sub">SUBTOTAL: $49.98</div>
+						<a href="finishpay.html"><div class="paynow">PAY NOW</div></a>
+					</div>
 						<!--end subtotal row-->
 
 
@@ -198,8 +197,6 @@
 				</div>
 				<!--End main image and heading section-->
 
-
-			</div> <!--end grid-->
 
 		</section> <!--end content-->
 

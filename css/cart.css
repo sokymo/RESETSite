@@ -30,7 +30,7 @@ hr.separator{
   width:100%;
 }
 
-.productlisting{
+.cartproductlisting{
   width:80%;
   min-width:350px;
   max-height:350px;
@@ -88,22 +88,42 @@ hr.separator{
   top:100px;
   width:100%;
   height:90rem;
-  background:black;
+  background:#0D0D0D;
   z-index:-1;
 }
 
-.buttons {
-  float:right;
+.codebutton {
   margin-top:-1rem;
-  width:100%;
+  width:70%;
   height:4rem;
   padding:1.5rem 2rem;
   font-family:universlight;
-  font-size:0.9em;
+  font-size:0.7em;
   text-align:center;
   border: 1px solid white;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
+}
+
+.paynow {
+  float:right;
+  margin-top:4rem;
+  width:100%;
+  height:4rem;
+  padding:1.4rem 2rem;
+  font-family:universlight;
+  font-size:1.2em;
+  text-align:center;
+  border: 1px solid white;
+  background:black;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.paynow:hover {
+  color:white;
+  background:#A9A9A9;
+  border:1px solid #868A92;
 }
 
 .buttons:hover {
@@ -116,13 +136,13 @@ hr.separator{
   margin-bottom:2rem;
 }
 
-.reviewsheading {
+.cartsubheading {
   margin-top:7.5rem;
   width:100%;
   margin-bottom:-1rem;
 }
 
-.reviewsheading2 {
+.cartsubheading2 {
   text-align:right;
   margin-top:7.5rem;
   margin-bottom:-1rem;
@@ -141,8 +161,10 @@ hr.separator{
 
 .coupon {
   margin-top:-1rem;
+  width:70%;
+  padding:1rem 0;
   font-family:universlight;
-  font-size:0.9em;
+  font-size:0.7em;
   text-align:center;
   background:none;
 }
