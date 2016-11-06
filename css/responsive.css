@@ -120,6 +120,14 @@
 
 /*body content media queries*/
 
+@media (max-width:1550px){
+
+  .productbackgroundwrapper {
+    height:62rem;
+  }
+
+}
+
 @media (max-width:1255px){
 
   .col-2of9{
@@ -149,6 +157,10 @@
 
   .reviews{
     padding:2rem 2rem;
+  }
+
+  .productbackgroundwrapper {
+    height:60rem;
   }
 
   /*cart page*/
@@ -215,10 +227,6 @@
     margin-bottom:2rem;
   }
 
-  .buttonsempty {
-    display:none;
-  }
-
   .seemore, .reviewsheading {
     margin-top:4rem;
   }
@@ -241,6 +249,15 @@
   .loginbg.productbackgroundwrapper {
     top:250px;
     height:60rem;
+  }
+
+  .mainwalletimage.col-6of9 {
+    margin-top:3rem;
+  }
+
+  .productbackgroundwrapper {
+    top:210px;
+    height:124rem;
   }
 
 }
@@ -277,12 +294,16 @@
   /*wallet page*/
 
   .productlistingmain{
-    margin-top:10rem;
+    margin-top:5rem;
+  }
+
+  .mainwalletimage.col-6of9 {
+    margin-top:5rem;
   }
 
   .productbackgroundwrapper {
     top:250px;
-    height:104rem;
+    height:111rem;
   }
 
   /*about page*/
@@ -373,9 +394,21 @@ h1.h1login{
     margin-right:0rem;
   }
 
+  .flexcontainer {
+    min-width:290px;
+  }
+
+  .productimagewallet {
+    width:48.5%;
+  }
+
   .productbackgroundwrapper {
     top:250px;
-    height:113rem;
+    height:82rem;
+  }
+
+  .wallet.productbackgroundwrapper {
+    height:100rem;
   }
 
   .seemore, .reviewsheading {
