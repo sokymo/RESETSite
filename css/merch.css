@@ -21,6 +21,10 @@
   height:5rem;
 }
 
+a.nextpage {
+  font-size:0.8em;
+}
+
 .productlisting{
   width:100%;
   max-height:350px;
@@ -64,6 +68,16 @@
 .white{
   color:white !important;
   font-weight: bold;
+}
+
+a:visited.current {
+  font-weight:bold;
+  color:black;
+}
+
+.current {
+  font-weight:bold;
+  color:#000;
 }
 
 /* Style The Dropdown Button */

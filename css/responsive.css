@@ -9,6 +9,18 @@
 
 }
 
+@media (max-width:1450px){
+  #header {
+  padding-left:5rem;
+  padding-right:5rem;
+}
+
+#content {
+  padding-left:5rem;
+  padding-right:5rem;
+}
+}
+
 @media (max-width:1255px){
 
  .footermainwrapper{
@@ -18,13 +30,13 @@
 }
 
 #header {
-  padding-left:5rem;
-  padding-right:5rem;
+  padding-left:2rem;
+  padding-right:2rem;
 }
 
 #content {
-  padding-left:5rem;
-  padding-right:5rem;
+  padding-left:2rem;
+  padding-right:2rem;
 }
 
 }
@@ -122,6 +134,16 @@
     height:62rem;
   }
 
+  .cart.productbackgroundwrapper {
+    height:90rem;
+  }
+
+  /*payment page*/
+
+  .payment.col-9of9{
+    margin-top:6rem;
+  }
+
 }
 
 @media (max-width:1255px){
@@ -198,11 +220,11 @@
   }
 
   .game.col-5of9{
-    width:55%;
+    width:51%;
   }
 
   .seemorecol3.col-3of9{
-    width:45%;
+    width:49%;
   }
 
   /*wallet page*/
@@ -420,10 +442,6 @@ h1.h1login{
   .loginbg.productbackgroundwrapper {
     top:250px;
     height:82rem;
-  }
-
-  .wallet.productbackgroundwrapper {
-    height:100rem;
   }
 
   .seemore, .reviewsheading {
