@@ -44,7 +44,6 @@ ul.ulwallet{
 
 .productlistingmain{
   width:100%;
-  max-height:610px;
   height:auto;
   float:left;
   margin-top:5rem;
@@ -54,7 +53,6 @@ ul.ulwallet{
 .iteminfo{
   float:left;
   width:100%;
-  max-height:610px;
   height:auto;
   margin-top:5rem;
   margin-left:2rem;
@@ -62,51 +60,50 @@ ul.ulwallet{
   color:white;
 }
 
-/*.productlisting{
+.productlisting{
   width:100%;
-  max-height:180px;
   height:auto;
   float:left;
-  margin-top:0rem;
+  margin-top:0.2rem;
   color:white;
-}*/
-
-#container1 {
-  position: relative;
-  background-image: url("../images/sockbox.jpg");
-  background-position:center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  width: 100%;
-  height: 180px;
 }
 
-
-#container2 {
-  position: relative;
-  background-image: url("../images/sockgift.jpg");
-  background-position:center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  width: 100%;
-  height: 180px;
-}
-
-.productimage {
-  width:100%;
+.productimagewallet {
+  width:49.5%;
   height:100%;
+}
+
+.productimagemain {
+  width:100%;
+  height:auto;
+}
+
+.flexcontainer {
+  display:flex;
+  min-width:700px;
+  flex-direction:row;
+  flex-wrap:wrap;
 }
 
 .productbackgroundwrapper {
   position:absolute;
   top:100px;
   width:100%;
-  height:68rem;
-  background:##0D0D0D;
+  height:72rem;
+  background:#0D0D0D;
+  z-index:-1;
+}
+
+.productbackgroundwraptest {
+  display:table;
+  top:100px;
+  padding-top:0;
+  margin-left:-10rem;
+  padding-left:10rem;
+  padding-right:10rem;
+  width: calc(100% + 20rem);
+  height:100%;
+  background:#0D0D0D;
   z-index:-1;
 }
 
@@ -125,10 +122,9 @@ ul.ulwallet{
   color:#868A92;
   border:1px solid #868A92;
 }
-.buttonsempty {
-  width:100%;
-  height:5rem;
-  margin-bottom:2rem;
+
+.buttonwrapper {
+  margin-top:20%;
 }
 
 .seemore {

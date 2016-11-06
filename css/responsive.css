@@ -57,12 +57,8 @@
     padding: 0 1rem;
   }
 
-  .hero {
-    top:210px;
-  }
-
   .heroempty {
-    height:38em;
+    height:15em;
   }
 
   .footerarea{
@@ -78,13 +74,13 @@
     display:block;
   }
 
+  .contact_cover, .events_cover, .merch_cover, .index_cover {
+    top:250px;
+  }
+
 }
 
 @media (max-width:768px){
-
-  .hero {
-    top:250px;
-  }
 
   .heroempty {
     height:16em;
@@ -239,7 +235,7 @@
   }
 
   .loginreview.reviewform {
-    margin-top:10rem;
+    margin-top:2rem;
   }
 
   .login {
@@ -247,7 +243,7 @@
   }
 
   .loginbg.productbackgroundwrapper {
-    top:250px;
+    top:210px;
     height:60rem;
   }
 
@@ -259,6 +255,12 @@
     top:210px;
     height:124rem;
   }
+
+  /*cart page*/
+
+  .colwrapper.col-9of9 {
+    margin-top:4rem;
+   }
 
 }
 
@@ -320,19 +322,12 @@
     display:none;
   }
 
-  .contact_cover {
-    top:250px;
-  }
-
-  .events_cover {
-    top:250px;
-  }
-
   /*cart page*/
 
   .colwrapper.col-9of9 {
     margin-top:10rem;
    }
+
 
   .cartheading {
     margin-top:0rem;
@@ -366,6 +361,16 @@ h1.h1login{
 .reviewform.loginreview {
   margin-top:2rem;
 }
+
+/*payment page*/
+
+  .paypal{
+    width:30%;
+  }
+
+  .payment.col-9of9{
+    margin-top:3rem;
+  }
 
 }
 
@@ -403,6 +408,11 @@ h1.h1login{
   }
 
   .productbackgroundwrapper {
+    top:250px;
+    height:82rem;
+  }
+
+  .loginbg.productbackgroundwrapper {
     top:250px;
     height:82rem;
   }
@@ -463,5 +473,25 @@ h1.h1login{
   .subtotalmodule.sub {
     text-align:center;
   }
+
+  /*payment page*/
+
+  .paypal{
+    width:50%;
+  }
+
+  input.shipping2 {
+    width:36%;
+  }
+
+  input.shipping3 {
+    width:40%;
+    font-size:0.8em;
+  }
+
+  ::-webkit-input-placeholder {
+ color: white;
+ letter-spacing:1px;
+}
 
 }
