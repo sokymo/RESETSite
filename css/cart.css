@@ -105,7 +105,7 @@ hr.separator{
   transition-duration: 0.4s;
 }
 
-.paynow {
+.continue {
   float:right;
   margin-top:4rem;
   width:100%;
@@ -120,7 +120,7 @@ hr.separator{
   transition-duration: 0.4s;
 }
 
-.paynow:hover {
+.continue:hover {
   color:white;
   background:#A9A9A9;
   border:1px solid #868A92;
