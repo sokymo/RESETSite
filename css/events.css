@@ -41,6 +41,25 @@
   font-weight: bold;
 }
 
+.herotext{
+  font-size: 1.5rem;
+}
+
+hr.heroline {
+  margin-left:0rem;
+  margin-top: 0rem;
+  margin-bottom: 1.5rem;
+  width: 10%;
+  border-color:#D7DF21;
+  transform: translate(448%, 0%)
+}
+
+.herocontent {
+  width: 50%;
+  transform: translate(50%, 0%)
+  }
+  
+
 /*#herooverlay {
     background-color: SlateGray;
     position:relative;
