@@ -248,24 +248,231 @@
   <section id="combined_elements">
 
 
+<!--- NOT WORKING IDK WHYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY // -->
     <section>
       <h2>Main Navigation</h2>
 
       <h3>CSS selector:</h3>
-        <p>.button-nav</p>
+        <p>.logo</p>
+        <p>.topnavwrapper</p>
+        <p>.topnavlink</p>
+        <p>.topiconwrapper</p>
+        <p>.currentpage</p>
+        <p>a</p>
+        <p>a:hover</p>
+
 
       <h3>Sample code:</h3>
-        <code>&lt;a href="#" class="button-nav"&gt;Default Button&lt;/a&gt;</code>
+        <code>
+          
+        </code>
 
       <h3>Rendered Element:</h3>
-        <a class="button-nav" href="#">Home</a>
-        <a class="button-nav" href="#">About Us</a>
-        <a class="button-nav" href="#">Our Menu</a>
-        <a class="button-nav" href="#">Delivery</a>
-        <a class="button-nav" href="#">Opportunities</a>
-        <a class="button-nav" href="#">Locations</a>
+
+      <div class="row">
+
+        <div class="col-1of9">
+          <div class="logo">
+            <a href="index.html"><img src="images/resetlogo.jpg" alt="RESET logo"></a>
+          </div>
+        </div>
+
+        <div class="col-8of9">
+          <div class="topnavwrapper">
+            <a href="merchandise.html" class="topnavlink"><span class="currentpage">MERCH</span></a>
+            <a href="events.html" class="topnavlink">EVENTS</a>
+            <a href="about.html" class="topnavlink">ABOUT</a>
+            <div class="topiconwrapper">
+              <a href="cart.html"><img src="images/cart.jpg" class="topnavlink" alt="Cart/Your current items"></a>
+              <a href="login.html"><img src="images/account.jpg" class="topnavlink" alt="Account/login icon"></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
 
     </section>
+    <hr class="line">
+
+
+    <section>
+
+        <h2>Product Listing</h2>
+
+        <h3>CSS Selector:</h3>
+          <p>.col-6of9</p>
+          <p>.mainwalletimage</p>
+          <p>.flexcontainer</p>
+          <p>.productlistingmain</p>
+          <p>.productimagemain</p>
+
+          <p>.productlisting</p>
+          <p>.productimagewallet</p>
+
+          <p>.col-3of9</p>
+          <p>.walletinfo</p>
+          <p>.iteminfo</p>
+          <p>.walletheading</p>
+
+          <p>.price</p>
+
+          <p>.ulwallet</p>
+
+          <p>.itemdetails</p>
+
+
+        <h3>Sample code:</h3>
+          <code>
+
+          </code>
+
+        <h3>Rendered Element:</h3>
+
+
+      <div class="grid">
+
+      <!--<div class="productbackgroundwraptest">-->
+
+      <!--Main image & Uncharted 4 Bi-Fold Wallet Heading-->
+      <div class="row">
+
+        <div class="col-6of9 mainwalletimage">
+
+          <div class="flexcontainer">
+
+            <div class="productlistingmain">
+              <img src="images/wallet1.jpg" class="productimagemain" alt="Uncharted 4 Bi-Fold Wallet - main image">
+            </div>
+
+            <!-- <div class="productlisting">
+              <img src="images/wallet2.jpg" class="productimagewallet" alt="Inside the bi-fold wallet">
+              <img src="images/wallet3.jpg" class="productimagewallet" alt="Back of the bi-fold wallet">
+            </div> -->
+
+          </div>
+
+        </div>
+      
+
+        <div class="col-3of9 walletinfo">
+          <div class="iteminfo">
+            <h1 class="walletheading">UNCHARTED 4 BI-FOLD WALLET</h1>
+
+            <hr>
+
+            <span class="price">$24.99</span>
+
+              <ul class="ulwallet">
+                <li>Features an Uncharted design from the popular video game series</li>
+                <li>Includes note/card slots and coin pocket</li>
+                <li>High quality design and materials</li>
+                <li>Officially licensed</li>
+              </ul>
+
+            <p class="itemdetails">Size: 10 cm</p>
+            <p class="itemdetails">Color: Beige</p>
+            <p class="itemdetails">Material: Leather, suede</p>
+
+
+        </div>
+      </div>
+
+        </div>
+        <!--End main image and heading row-->
+
+        <!--Row of wallet images and add to cart buttons-->
+        <div class="row">
+          <div class="col-3of9 buttonscol">
+            <div class="buttonwrapper">
+              <a href="login.html"><div class="buttons">ADD TO CART</div></a>
+              <a href="cart.html"><div class="buttons">BUY</div></a>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div><!--End wallet images and add to cart buttons-->
+
+
+
+      </section>
+      <hr class="line">
+
+
+
+      <section>
+
+        <h2>Website Grid Structure</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.col-3of9</p>
+        <p>.col-6of9</p>
+        <p>.col-9of9</p>
+
+        <h3>Sample code:</h3>
+        <code>
+          &lt;div class="row"&gt;<br>
+            &lt;div class="col-3of9"&gt;&lt;/div&gt;<br>
+          &lt;/div&gt;
+        </code>
+
+        <h3>Rendered Element:</h3>
+
+
+        <div class="row">
+          <div class="col-9of9 fill">
+              <p>
+              Column 9 of 9
+              </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-6of9 fill">
+              <p>
+              Column 6 of 9
+              </p>
+          </div>
+           <div class="col-3of9 fill">
+              <p>
+              Column 3 of 9
+              </p>
+          </div>
+
+        <div class="row">
+          <div class="col-3of9 fill">
+              <p>
+              Column 3 of 9
+              </p>
+          </div>
+           <div class="col-3of9 fill">
+              <p>
+              Column 3 of 9
+              </p>
+          </div>
+          <div class="col-3of9 fill">
+              <p>
+              Column 3 of 9
+              </p>
+          </div>
+        </div>
+
+
+
+
+
+        <!--Empty row-->
+        <div class="row">
+          <div class="col-9of9">
+            <div class="heroempty heroheight"></div>
+          </div>
+        </div>
+        <!--End empty row-->
+
+
+      </section>
+
 
 
 
