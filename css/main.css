@@ -63,6 +63,16 @@ hr {
   width:5rem;
 }
 
+  hr.heroline {
+  display:block;
+  margin-left:0rem;
+  margin-top: 0rem;
+  margin-bottom: 1.7rem;
+  width: 10%;
+  border-color:#D7DF21;
+  transform: translate(448%, 0%);
+}
+
 ul
 {
   margin-top:2rem;
@@ -128,6 +138,12 @@ input {
   background:#A9A9A9;
   border:1px solid white;
 }
+
+.herocontent {
+  display:block;
+  margin:auto;
+  width: 50%;
+  }
 
 
 /*sections*/

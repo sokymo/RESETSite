@@ -349,6 +349,15 @@
     display:none;
   }
 
+  .herocontent {
+    font-size:1em;
+    width:90%;
+  }
+
+  .herotext {
+    margin-top:0;
+  }
+
   /*cart page*/
 
   .colwrapper.col-9of9 {
@@ -410,6 +419,12 @@ h1.h1login{
   .filter{
     margin-bottom:-3rem;
   }
+
+  .herocontent {
+    font-size:0.9em;
+    width:90%;
+  }
+
 
   /*merch page*/
 
