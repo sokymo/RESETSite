@@ -63,7 +63,7 @@ hr {
   width:5rem;
 }
 
-  hr.heroline {
+hr.heroline {
   display:block;
   margin-left:0rem;
   margin-top: 0rem;
@@ -143,10 +143,14 @@ input {
   display:block;
   margin:auto;
   width: 50%;
-  }
+}
 
-  .herotext{
+.herotext{
   font-size: 1.5rem;
+}
+
+.nextline {
+  display:block;
 }
 
 

@@ -202,7 +202,6 @@
 }
 
 .text {
-  z-index: 100;
   position: absolute;
   color: white;
   font-size: 13px;
@@ -212,4 +211,5 @@
   bottom: 0px;
   padding: 15px;
   margin: 0px;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color:rgba(0, 0, 0, 0.5);
+  z-index: 5;

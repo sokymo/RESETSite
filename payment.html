@@ -50,6 +50,7 @@
 	<!--End header-->
 
 
+	<!--Div that displays the dark background, absolutely positioned outside of the grid-->
 	<div class="productbackgroundwrapper"></div>
 
 
@@ -66,43 +67,36 @@
 					<h1 class="h1login">SHIPPING AND PAYMENT</h1>
 					<hr class="hrheading">
 					<div class="reviewform loginreview">
-						<div class="reviewform loginreview">
-							<form>
-								<input type="text" name="name" class="shipping" placeholder="NAME">
-								<input type="text" name="email" class="shipping" placeholder="EMAIL">
-								<input type="text" name="address" class="shipping" placeholder="ADDRESS">
-								<input type="text" name="city" class="shipping2" placeholder="CITY">
-								<select name="province" class="province">
-									<option value="AB">AB</option>
-									<option value="BC">BC</option>
-									<option value="MB">MB</option>
-									<option value="NB">NB</option>
-									<option value="NL">NL</option>
-									<option value="NS">NS</option>
-									<option value="NT">NT</option>
-									<option value="ON">ON</option>
-									<option value="PE">PE</option>
-									<option value="QC">QC</option>
-									<option value="SK">SK</option>
-									<option value="YT">YT</option>
-								</select>
-								<input type="text" name="postalcode" class="shipping3" placeholder="POSTAL CODE">
-							</form>
+						<form>
+							<input type="text" name="name" class="shipping" placeholder="NAME">
+							<input type="text" name="email" class="shipping" placeholder="EMAIL">
+							<input type="text" name="address" class="shipping" placeholder="ADDRESS">
+							<input type="text" name="city" class="shipping2" placeholder="CITY">
+							<select name="province" class="province">
+								<option value="AB">AB</option>
+								<option value="BC">BC</option>
+								<option value="MB">MB</option>
+								<option value="NB">NB</option>
+								<option value="NL">NL</option>
+								<option value="NS">NS</option>
+								<option value="NT">NT</option>
+								<option value="ON">ON</option>
+								<option value="PE">PE</option>
+								<option value="QC">QC</option>
+								<option value="SK">SK</option>
+								<option value="YT">YT</option>
+							</select>
+							<input type="text" name="postalcode" class="shipping3" placeholder="POSTAL CODE">
+						</form>
 
-							<div class="paypalwrapper">
+						<div class="paypalwrapper">
 
-								<a href="finishpay.html"><img src="images/paypal.png" alt="Paypal paynow button" class="paypal"></a>
+							<a href="finishpay.html"><img src="images/paypal.png" alt="Paypal paynow button" class="paypal"></a>
 
-								<a href="cart.html">Cancel</a>
-							</div>
-
-
-							<!-- <input type="submit" name="submit" value="submit" class="submitbutton"> -->
-
+							<a href="cart.html">Cancel</a>
 						</div>
-					</div>
-
-				</div>
+					</div><!--end reviewform-->
+				</div><!--end col-3of9-->
 
 			</div>
 			<!--End forms-->
