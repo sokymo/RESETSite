@@ -145,6 +145,86 @@
     </section>
     <hr class="line">
 
+
+    <section>
+
+        <h2>Item Thumbnails</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.col-3of9</p>
+        <p>.event_container</p>
+        <p>.text</p>
+
+        <h3>Sample code:</h3>
+        <code>
+          &lt;div class="col-3of9"&gt;&lt;a href="page.html"&gt;<br>
+          &lt;div id="thumbnail_image"&gt;<br>
+          &lt;div class="event_container"&gt;<br>
+          &lt;p class="text"&gt;<br>
+            Text goes here<br>
+          &lt;/p&gt;<br>
+          &lt;/div&gt;<br>
+          &lt;/div&gt;<br>
+          &lt;/a&gt;<br>
+          &lt;/div&gt;<br>
+       </code>
+
+        <h3>Rendered element:</h3>
+
+           <!--Frst games row-->
+  <div class="row">
+
+    <div class="col-3of9"><a href="merchandise.html">
+      <div id="game_league">
+        <div class="event_container">
+          <p class="text">
+            LEAGUE OF LEGENDS
+          </p>
+        </div>
+      </div>
+    </a>
+  </div>
+
+
+  <div class="col-3of9"><a href="merchandise.html">
+    <div id="game_witcher">
+      <div class="event_container">
+        <p class="text">
+          THE WITCHER 3
+        </p>
+      </div>
+    </div>
+  </a>
+</div>
+
+
+<div class="col-3of9"><a href="merchandise.html">
+  <div id="game_minecraft">
+    <div class="event_container">
+      <p class="text">
+        MINECRAFT
+      </p>
+    </div>
+  </div>
+</a>
+</div>
+</div>
+<!--End games row-->
+
+
+        <!--Empty row-->
+        <div class="row">
+          <div class="col-9of9 short">
+            <div class="heroempty heroheight"></div>
+          </div>
+        </div>
+        <!--End empty row--> 
+
+
+    </section>
+    <hr class="line">
+
+
   </section>
 
 
@@ -323,6 +403,41 @@
 
         <h3>Sample code:</h3>
           <code>
+
+
+        &lt;div class="row">
+
+          &lt;div class="col-6of9 mainwalletimage"&gt;<br>
+            &lt;div class="flexcontainer"&gt;<br>
+
+              &lt;div class="productlistingmain"&gt;<br>
+                &lt;img src="images/wallet1.jpg" class="productimagemain" alt="Uncharted 4 Bi-Fold Wallet - main image"&gt;<br>
+              &lt;/div&gt;<br>
+            &lt;/div&gt;<br>
+          &lt;/div&gt;<br>
+      
+          &lt;div class="col-3of9 walletinfo"&gt;<br>
+            &lt;div class="iteminfo"&gt;<br>
+              &lt;h1 class="walletheading"&gt;UNCHARTED 4 BI-FOLD WALLET&lt;/h1&gt;<br>
+
+              &lt;hr&gt;<br>
+
+              &lt;span class="price"&gt;$24.99&lt;/span&gt;<br>
+
+              &lt;ul class="ulwallet"&gt;<br>
+                &lt;li&gt;Features an Uncharted design from the popular video game series&lt;/li&gt;<br>
+                &lt;li&gt;Includes note/card slots and coin pocket&lt;/li&gt;<br>
+                &lt;li&gt;High quality design and materials&lt;/li&gt;<br>
+                &lt;li&gt;Officially licensed&lt;/li&gt;<br>
+              &lt;/ul&gt;<br>
+
+            &lt;p class="itemdetails">Size: 10 cm&lt;/p&gt;<br>
+            &lt;p class="itemdetails">Color: Beige&lt;/p&gt;<br>
+            &lt;p class="itemdetails">Material: Leather, suede&lt;/p&gt;<br>
+
+          &lt;/div&gt;<br>
+        &lt;/div&gt;<br>
+
 
           </code>
 
