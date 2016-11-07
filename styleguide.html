@@ -7,28 +7,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Style Guide</title>
 
-    <link href="css/main.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/flexbox.css">
-    <link rel="stylesheet" href="css/grid.css"> 
-
+    <link href="css/styleguide.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css"> 
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/responsive.css">
   </head>
 
 
   <body>
 
     <h1>Style Guide</h1>
-    <h2>Website for Local Juice Bar</h2>
+    <h2>Reset Merchandise Website</h2>
 
-    <p>Jane Wong  |  IAT 339 D100</p>
+    <p>Janet Ouyang  &  Jane Wong  |  IAT 339 D100  |  Project 02</p>
 
 
   <nav>
       
       <p>
         <strong>PAGES</strong>&nbsp;
-        <a href="Template.html" class="nav-main-item box-item-nav">Style Guide</a>
-        <a href="Userflows.html" class="nav-main-item box-item-nav">User-flows</a>
-        <a href="Citations.html" class="nav-main-item box-item-nav">Citations</a>
+        <a href="index.html" class="nav-main-item box-item-nav">Website</a>
+        <a href="styleguide.html" class="nav-main-item box-item-nav">Style Guide</a>
+        <a href="citations.html" class="nav-main-item box-item-nav">Citations</a>
       </p>
 
     </nav>
@@ -45,6 +45,8 @@
 
     </nav>
 
+    <hr class="line">
+
 
 
 
@@ -53,307 +55,31 @@
 
 
       <!-- Default Button styling section -->
-      <section>
+      <section class="line">
 
         <h2>Navigation Button</h2>
 
         <h3>CSS selector:</h3>
-        <p>.button-nav</p>
+        <p>.topnavlink</p>
+        <p>.currentpage</p>
 
         <h3>Sample code:</h3>
-        <code>&lt;a href="#" class="button-nav"&gt;Navigate&lt;/a&gt;</code>
+        <code>
+        &lt;a href="merchandise.html" class="topnavlink"&gt;&lt;span class="currentpage"&gt;SHOP&lt;/span&gt;
+        </code>
 
         <h3>Rendered element:</h3>
-        <a class="button-nav" href="#">Navigate</a>
-
-      </section>
-
-
-
-      <section>
-
-        <h2>In-text link</h2>
-
-        <h3>CSS selector:</h3>
-        <p>.link</p>
-
-        <h3>Sample code:</h3>
-        <code>&lt;a href="#" class="link"&gt;This is a link&lt;/a&gt;</code>
-
-        <h3>Rendered element:</h3>
-        <a href="#" class="link">This is a link</a>
-
-      </section>
-
-
-
-      <section>
-
-        <h2>Submit/Reset Buttons</h2>
-
-        <h3>CSS selector:</h3>
-        <p>.submit-button</p>
-
-        <h3>Sample code:</h3>
-        <code>&lt;a href="#" class=".submit-button"&gt;Submit/Reset Button&lt;/a&gt;</code>
-
-        <h3>Rendered element:</h3>
-        <a href="#" class="submit-button">Submit/Reset Button</a>
-
-      </section>
-
-
-
-      <section>
-       
-        <h2>Text Input Field</h2>
-
-        <h3>CSS selector:</h3>
-        <p>form, textarea</p>
-
-        <h3>Sample code:</h3>
-        <code>&lt;form method="post" action="#"&gt;      
-&lt;label for="form-comment"&gt;Comment:&lt;/label&gt;        
-&lt;textarea id="form-comment" placeholder="Please comment here"&gt;&lt;/textarea&gt;
-&lt;input type="submit" value="Submit your comment" class="button-submit"&gt;
-&lt;/form&gt;</code>
-
-        <h3>Rendered element:</h3>
-
-        <form method="post" action="#">
-        
-        <label for="form-comment">Comment:</label>
-        
-        <textarea id="form-comment" placeholder="Please comment here" class="form"></textarea>
-
-        <input type="submit" value="Submit your comment" class="submit-button">
-
-        </form>
-
-      </section>
+        <a href="merchandise.html" class="topnavlink"><span class="currentpage">SHOP</span></a>
 
     </section>
-    <!-- // INTERACTIVE ELEMENTS SECTION -->
+      <hr class="line">
 
 
 
-    <!-- TEXT ELEMENTS SECTION // -->
-    <section id="text_elements">
 
 
-      <section>
 
-        <h2>Headings</h2>
 
-        <h3>CSS Selector:</h3>
-        <p>h1, h2, h3</p>
-
-        <h3>Sample code:</h3>
-        <code>&lt;h1&gt;Heading 1&lt;/h1&gt;
-&lt;h2&gt;Heading 2&lt;/h2&gt;
-&lt;h3&gt;Heading 3&lt;/h3&gt;</code>
-
-        <h3>Rendered Element:</h3>
-        
-        <h1>Heading 1</h1>
-        <h2>Heading 2</h2>
-        <h3>Heading 3</h3>
-
-      </section>
-
-
-
-      <section>
-
-        <h2>Paragraphs</h2>
-
-        <h3>CSS Selector:</h3>
-        <p>p</p>
-
-        <h3>Sample code:</h3>
-        <code>&lt;p&gt;... &lt;/p&gt;</code>
-
-        <h3>Rendered Element:</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel nulla et massa malesuada dictum eget at urna. Cras ac lacus nec dolor viverra iaculis. Phasellus non leo erat. Praesent condimentum sem sit amet nunc viverra, in sagittis nunc dapibus.</p>
-
-      </section>
-
-
-      <section>
-
-        <h2>Bulleted Lists</h2>
-
-        <h3>CSS Selector:</h3>
-        <p>ul</p>
-
-        <h3>Sample code:</h3>
-        <code>&lt;ul&gt;...&lt;/ul&gt;</code>
-
-        <h3>Rendered Element:</h3>
-        <ul>
-          <li>List item 1</li>
-          <li>List item 2</li>
-          <li>List item 3</li>
-          <li>List item 4</li>
-        </ul>
-
-      </section>
-
-
-      <section>
-        <h2>Numbered Lists</h2>
-
-        <h3>CSS Selector:</h3>
-        <p>ol</p>
-
-        <h3>Sample code:</h3>
-        <code>&lt;ol&gt;...&lt;/ol&gt;</code>
-
-        <h3>Rendered Element:</h3>
-        <ol>
-          <li>List item 1</li>
-          <li>List item 2</li>
-          <li>List item 3</li>
-          <li>List item 4</li>
-        </ol>
-
-      </section>
-
-
-    </section>
-    <!-- // TEXT ELEMENTS SECTION -->
-
-
-
-    <!-- COMBINED ELEMENTS SECTION // -->
-    <section id="combined_elements">
-
-      <section>
-        <h2>Main Navigation</h2>
-
-        <h3>CSS selector:</h3>
-        <p>.button-nav</p>
-
-        <h3>Sample code:</h3>
-        <code>&lt;a href="#" class="button-nav"&gt;Default Button&lt;/a&gt;</code>
-
-        <h3>Rendered Element:</h3>
-        <a class="button-nav" href="#">Home</a>
-        <a class="button-nav" href="#">About Us</a>
-        <a class="button-nav" href="#">Our Menu</a>
-        <a class="button-nav" href="#">Delivery</a>
-        <a class="button-nav" href="#">Opportunities</a>
-        <a class="button-nav" href="#">Locations</a>
-
-      </section>
-
-
-      <section>
-
-        <h2>Product Listing</h2>
-
-        <h3>CSS Selector:</h3>
-        <p>.listing-border, .box, .box-item-article-image, .box-item-article-text</p>
-
-        <h3>Sample code:</h3>
-
-        <code>&lt;div class="box-item-article-text"&gt;
-&lt;h2&gt;3-Day Cleanse&lt;/h2&gt;
-&lt;p>Designed to reset and rebalance your body.&lt;/p&gt;
-&lt;h3>Instructions&lt;/h3&gt;
-&lt;p>Consume a bottle before each meal in the order as listed in the packaging;
-4 cleanses per day.&lt;/p&gt;
-&lt;a href="#" class="link"&gt;See Ingredients&lt;/a&gt;
-&lt;a href="#" class="submit-button"&gt;Order Now&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;div class="box-item-article-text"&gt;
-&lt;h3&gt;Juices Included&lt;/h3&gt;
-&lt;ul&gt;&lt;li&gt;The digestive juice x 3&lt;/li&gt;
-&lt;li&gt;The kickstarter juice x 3&lt;/li&gt;
-&lt;li&gt;The booster juice x 3&lt;/li&gt;
-&lt;li&gt;The refresher juice x 3&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;
-</code>
-
-        <h3>Rendered Element:</h3>
-
-        <div class="listing-border">
-
-          <div class="box-item-article-image">
-            <img src="img/juice-bottles.jpg" alt="Juice bottle delivery" width="150" height="150" class="profile-photo" />
-          </div>
-
-          <div class="box-item-article-text">
-            <h2>3-Day Cleanse</h2>
-            <p>Designed to reset and rebalance your body.</p>
-            <h3>Instructions</h3>
-            <p>Consume a bottle before each meal in the order as listed in the packaging; 4 cleanses per day.</p></div>
-
-          <div class="box-item-article-text">
-           <h3>Juices Included</h3>
-            <ul>
-            <li>The digestive juice x 3</li>
-            <li>The kickstarter juice x 3</li>
-            <li>The booster juice x 3</li>
-            <li>The refresher juice x 3</li>
-          </ul></div>
-
-            <p><a href="#" class="link">See Ingredients</a></p>
-            <p><a href="#" class="submit-button">Order Now</a></p>
-          </div>
-  
-        </div> <!--end of box -->
-
-      </section>
-
-
-      <section>
-
-        <h2>Imagery</h2>
-        <p>Clean, spatially conscious images.</p>
-
-        <h3>Sample code:</h3>
-        <code>&lt;img src="img/beets.jpg" alt="Beets"&gt;</code>
-
-        <h3>Rendered Element:</h3>
-
-      <img src="img/beets.jpg" alt="Beets">
-      <img src="img/bottles.jpg" alt="Bottles">
-      <img src="img/greenjuice.jpg" alt="Green juice">
-      <img src="img/juice.jpg" alt="Juice">
-      <img src="img/kale.jpg" alt="Kale">
-      <img src="img/veggies.jpg" alt="Veggies">
-
-      </section>
-
-
-
-      <section>
-
-        <h2>Website Grid Structure</h2>
-
-        <h3>CSS selector:</h3>
-        <p>.button-nav</p>
-
-        <h3>Sample code:</h3>
-        <code>&lt;a href="#" class="button-nav"&gt;Default Button&lt;/a&gt;</code>
-
-        <h3>Rendered Element:</h3>
-        <div class="grid-row">
-        <div class="grid-col-2of10"></div>
-        <div class="grid-col-2of10"></div>
-        <div class="grid-col-2of10"></div>
-        <div class="grid-col-2of10"></div>
-        <div class="grid-col-2of10"></div>
-        </div>
-
-      </section>
-
-
-
-    </section>
-    <!-- // COMBINED ELEMENTS SECTION -->
 
 
   </body>
