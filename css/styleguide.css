@@ -150,24 +150,6 @@ hr.line {
   margin-bottom:1.5rem;
 }
 
-.submitbutton{
-  padding:1.5rem 0rem;
-  margin-bottom:2rem;
-  border:1px solid white;
-  text-transform: uppercase;
-  letter-spacing:3px;
-  background:none;
-  -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
-  text-align: center;
-}
-
-.submitbutton:hover {
-  color:white;
-  background:#A9A9A9;
-  border:1px solid white;
-}
-
 code, samp {
   display: block;
   background-color: rgb(88,88,88);
@@ -212,82 +194,80 @@ img {
 }
 
 
-/*.button-nav {
-  display: inline-block;
-  padding: 1em 1.25em;
-  color: white;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: .8em;
-  background-color: rgb(250,100,75);
-  border-radius: 0.3em;
-  text-decoration: none;
-  -webkit-transition: background-color 0.3s ease-out;
-  transition: background-color 0.3s ease-out;
-  padding: 1.2rem;
-}
-
-.button-nav:active, .button-nav:hover, .button-nav:focus {
-    color: white;
-    background-color: rgb(10,200,150);
-}*/
-
 
 /* Styling for in-text link */
-.link {
-  display: inline-block;
-  color: rgb(250,100,75);
-  font-weight: bold;
-  text-decoration: none;
-  -webkit-transition: background-color 0.3s ease-out;
-  transition: background-color 0.3s ease-out;
+
+.capitalize {
+  text-transform: uppercase;
 }
 
-.link:active, .link:hover, .link:focus {
-    color: white;
-    background-color: rgb(250,100,75);
-}
 
 
 /* Styling for the submit/reset button */
-.submit-button {
-  display: inline-block;
-  padding: 0.5em 0.75em;
-  font-family: "DINPro";
-  font-size: 1em;
-  color: white;
-  background-color: rgb(250,100,75);
-  border-radius: 0.3em;
-  text-decoration: none;
-  -webkit-transition: background-color 0.3s ease-out;
-  transition: background-color 0.3s ease-out;
+
+.submitbutton{
+  padding:1.5rem 0rem;
+  margin-bottom:2rem;
+  border:1px solid white;
+  text-transform: uppercase;
+  letter-spacing:3px;
+  background:none;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-align: center;
+  width:30%;
+  max-width: 270px;
 }
 
-.submit-button:active, .submit-button:hover, .submit-button:focus {
-    color: white;
-    background-color: rgb(10,200,150);
+.submitbutton:hover {
+  color:white;
+  background:#A9A9A9;
+  border:1px solid white;
 }
 
 
 /* Styling for text input field and a label */
 
-textarea {
-  font-family : inherit;
-  font-size: 100%;
-  vertical-align: top;
+div.contactform{
+  float:left;
+  width:30%;
+  height:300px;
+  margin-bottom:3rem;
+  color:white;
+  letter-spacing: 1.5px;
 }
 
-/* Text input box */
-form {
-  padding: 1rem;
-  /*width: 80%;*/
+.forminput{
+  margin-bottom:1.5rem;
+  text-transform: uppercase;
 }
 
+div.form {
+  margin-bottom: 1rem;
+}
 
 
 /* 
   TEXT ELEMENTS -------------------
 */
+
+
+
+/* Styling for headers */
+
+
+.herotext {
+  font-size: 1.5rem;
+  color: white;
+  text-transform: uppercase;
+}
+
+.site {
+  margin-top:4rem;
+  font-weight:lighter;
+  font-size:1.2em;
+  text-transform: uppercase;
+}
 
 
 /* Styling for bullet lists */
