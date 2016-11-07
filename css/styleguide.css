@@ -90,7 +90,7 @@ li {
 }
 
 input {
-  width:100%;
+  width:20%;
   height:4rem;
   padding:2rem 2rem;
   color:white;
@@ -308,17 +308,19 @@ ul.productinfo{
 .topnavwrapper{
   width:100%;
   height:50px;
-  padding-top:30px;
-  text-align:right;
+  padding-top:0px;
+  text-align:left;
 }
 
 .topnavlink{
+  display:inline;
   padding-left: 4rem;
   font-size:0.8em;
 }
 
 .topiconwrapper {
-  display:inline;
+  display:inline-block;
+  
 }
 
 .currentpage{

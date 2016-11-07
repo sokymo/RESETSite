@@ -26,7 +26,7 @@
       
       <p>
         <strong>PAGES</strong>&nbsp;
-        <a href="index.html" class="nav-main-item box-item-nav">Website</a>
+        <a href="index.html" class="nav-main-item box-item-nav" target=_blank>Website</a>
         <a href="styleguide.html" class="nav-main-item box-item-nav">Style Guide</a>
         <a href="citations.html" class="nav-main-item box-item-nav">Citations</a>
       </p>
@@ -333,7 +333,6 @@
       <h2>Main Navigation</h2>
 
       <h3>CSS selector:</h3>
-        <p>.logo</p>
         <p>.topnavwrapper</p>
         <p>.topnavlink</p>
         <p>.topiconwrapper</p>
@@ -344,21 +343,23 @@
 
       <h3>Sample code:</h3>
         <code>
+
+          &lt;div class="topnavwrapper"&gt;
+            &lt;a href="merchandise.html" class="topnavlink"&gt;&lt;span class="currentpage"&gt;MERCH&gt;/span&gt;&lt;/a&gt;
+            &lt;a href="events.html" class="topnavlink"&gt;EVENTS&lt;/a&gt;
+            &lt;a href="about.html" class="topnavlink"&gt;ABOUT&lt;/a&gt;
+            &lt;div class="topiconwrapper"&gt;
+              &lt;a href="cart.html"&gt;&lt;img src="images/cart.jpg" class="topnavlink" alt="Cart/Your current items"&gt;&lt;/a&gt;
+              &lt;a href="login.html"&gt;&lt;img src="images/account.jpg" class="topnavlink" alt="Account/login icon"&gt;&lt;/a&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
           
         </code>
 
       <h3>Rendered Element:</h3>
 
-      <div class="row">
-
-        <div class="col-1of9">
-          <div class="logo">
-            <a href="index.html"><img src="images/resetlogo.jpg" alt="RESET logo"></a>
-          </div>
-        </div>
-
-        <div class="col-8of9">
-          <div class="topnavwrapper">
+      
+         <div class="topnavwrapper">
             <a href="merchandise.html" class="topnavlink"><span class="currentpage">MERCH</span></a>
             <a href="events.html" class="topnavlink">EVENTS</a>
             <a href="about.html" class="topnavlink">ABOUT</a>
@@ -367,11 +368,13 @@
               <a href="login.html"><img src="images/account.jpg" class="topnavlink" alt="Account/login icon"></a>
             </div>
           </div>
-        </div>
+          
 
-      </div>
+
 
     </section>
+
+
     <hr class="line">
 
 
