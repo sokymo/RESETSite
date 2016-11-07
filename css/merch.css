@@ -70,6 +70,7 @@ a.nextpage {
   font-weight: bold;
 }
 
+<<<<<<< b0eae7d8bd1c3377c79d9401c03041b1129a45f6
 a:visited.current {
   font-weight:bold;
   color:black;
@@ -80,6 +81,26 @@ a:visited.current {
   color:#000;
 }
 
+=======
+.herotext{
+  font-size: 1.5rem;
+}
+
+hr.heroline {
+  margin-left:0rem;
+  margin-top: 0rem;
+  margin-bottom: 1.5rem;
+  width: 10%;
+  border-color:#D7DF21;
+  transform: translate(448%, 0%)
+}
+
+.herocontent {
+  width: 50%;
+  transform: translate(50%, 0%)
+  }
+
+>>>>>>> 844ab798d26b768916364b753b50b115d28053e9
 /* Style The Dropdown Button */
 .dropbtn {
   width:100%;
