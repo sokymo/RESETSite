@@ -263,7 +263,7 @@ div.form {
 }
 
 .site {
-  margin-top:4rem;
+  color: white;
   font-weight:lighter;
   font-size:1.2em;
   text-transform: uppercase;
@@ -272,12 +272,9 @@ div.form {
 
 /* Styling for bullet lists */
 
-ul {
-  list-style-type: circle;
-  list-style-position: inside;
-  font-size: 1.25rem;
-  margin-left: 35;
-  color: rgb(10,200,150);
+ul.productinfo{
+  padding-left:.8rem;
+  margin-bottom:2rem;
 }
 
 
